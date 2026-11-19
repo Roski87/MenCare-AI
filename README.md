@@ -98,13 +98,15 @@ User → Goal + safety intake → Tailored factor questions
 
 ```text
 MenCare_AI_Streamlit_Prototype/
-├── streamlit_app.py         # Streamlit front end
-├── risk_engine.py           # Explainable fuzzy demonstration and routing
-├── requirements.txt        # Runtime dependencies
-├── .streamlit/config.toml   # App theme and server settings
-├── tests/test_risk_engine.py
-├── README.md                # This document
-└── DEPLOYMENT_GUIDE_ID.md   # Panduan Bahasa Indonesia
+├── .streamlit/
+│   └── config.toml             # App theme and server settings
+├── tests/
+│   └── test_risk_engine.py     # Unit tests for the risk engine
+├── streamlit_app.py            # Streamlit frontend
+├── risk_engine.py              # Explainable fuzzy demonstration and routing
+├── requirements.txt            # Runtime dependencies
+├── README.md                   # Project documentation
+└── DEPLOYMENT_GUIDE_ID.md      # Deployment guide in Bahasa Indonesia
 ```
 
 ## For challenge submission
